@@ -1,0 +1,9 @@
+;; Keg
+
+(source gnu melpa)
+
+(package
+ (bv
+  (recipe . (bv :fetcher github :repo "conao3/bv.el"))))
+
+(dev-dependency cort)
